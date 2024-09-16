@@ -1,6 +1,7 @@
 package guru.springframework.rabbit.rabbitstockquoteservice.service;
 
 import guru.springframework.rabbit.rabbitstockquoteservice.model.Quote;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.SynchronousSink;
